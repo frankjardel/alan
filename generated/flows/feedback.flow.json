@@ -1,0 +1,75 @@
+{
+  "version": "0.1",
+  "catchAll": {},
+  "startNode": "entry",
+  "nodes": [
+    {
+      "id": "5093b874b2",
+      "name": "entry",
+      "onEnter": [
+        "say #!builtin_single-choice-v0pK0z"
+      ],
+      "onReceive": [],
+      "next": [
+        {
+          "condition": "event.text === 'Sim'",
+          "node": "useful"
+        },
+        {
+          "condition": "event.text === 'Não'",
+          "node": "useless"
+        }
+      ]
+    },
+    {
+      "id": "e427a1e1ec",
+      "name": "useless",
+      "next": [
+        {
+          "condition": "event.text === '..finalizar atendimento'",
+          "node": "bye"
+        },
+        {
+          "condition": "event.text === '..Continuar o atendimento comigo'",
+          "node": "main.flow.json"
+        },
+        {
+          "condition": "event.text === '..falar com um atendente humano'",
+          "node": "human.flow.json"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_single-choice-WbxXHJ"
+      ],
+      "onReceive": []
+    },
+    {
+      "id": "8fc2ce2551",
+      "name": "useful",
+      "next": [
+        {
+          "condition": "true",
+          "node": "bye"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-ArwcXl"
+      ],
+      "onReceive": null
+    },
+    {
+      "id": "1dad958cbf",
+      "name": "bye",
+      "next": [
+        {
+          "condition": "true",
+          "node": "END"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-P1o7oY"
+      ],
+      "onReceive": null
+    }
+  ]
+}

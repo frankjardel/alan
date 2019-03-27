@@ -1,0 +1,142 @@
+{
+  "version": "0.1",
+  "catchAll": {},
+  "startNode": "entry",
+  "nodes": [
+    {
+      "id": "ad8d489fc2",
+      "name": "none",
+      "next": [
+        {
+          "condition": "true",
+          "node": "entry"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-2q_VzM"
+      ],
+      "onReceive": null
+    },
+    {
+      "id": "89e5bc16e4",
+      "name": "options",
+      "next": [
+        {
+          "condition": "true",
+          "node": "more-helps"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-WbOhnG"
+      ],
+      "onReceive": null
+    },
+    {
+      "id": "92f1369ecb",
+      "name": "entry",
+      "onEnter": [
+        "say #!builtin_single-choice-QQO9Xf"
+      ],
+      "onReceive": [],
+      "next": [
+        {
+          "condition": "event.text === '..s opções de frete?'",
+          "node": "options"
+        },
+        {
+          "condition": "event.text === '..retirar em mãos'",
+          "node": "withdraw"
+        },
+        {
+          "condition": "event.text === '..entrega de produtos digitais?'",
+          "node": "product-digital"
+        },
+        {
+          "condition": "event.text === '..o valor e prazo de entrega?'",
+          "node": "delivery-digital"
+        },
+        {
+          "condition": "true",
+          "node": "none"
+        }
+      ]
+    },
+    {
+      "id": "900e6808db",
+      "name": "more-helps",
+      "next": [
+        {
+          "condition": "event.text === 'Sim'",
+          "node": "entry"
+        },
+        {
+          "condition": "event.text === 'Não'",
+          "node": "feedback.flow.json"
+        },
+        {
+          "condition": "true",
+          "node": "final-node"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_single-choice-khJYIE"
+      ],
+      "onReceive": []
+    },
+    {
+      "id": "1dcb84d81a",
+      "name": "withdraw",
+      "next": [
+        {
+          "condition": "true",
+          "node": "more-helps"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-vFZlqN"
+      ],
+      "onReceive": null
+    },
+    {
+      "id": "893e925aa8",
+      "name": "product-digital",
+      "next": [
+        {
+          "condition": "true",
+          "node": "more-helps"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-MaLEGm"
+      ],
+      "onReceive": null
+    },
+    {
+      "id": "3196db9475",
+      "name": "delivery-digital",
+      "next": [
+        {
+          "condition": "true",
+          "node": "more-helps"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-pIbpac",
+        "say #!builtin_image-BHKNa9"
+      ],
+      "onReceive": null
+    },
+    {
+      "id": "2b3b390653",
+      "name": "final-node",
+      "next": [
+        {
+          "condition": "true",
+          "node": "END"
+        }
+      ],
+      "onEnter": [],
+      "onReceive": null
+    }
+  ]
+}

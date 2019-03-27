@@ -1,0 +1,227 @@
+{
+  "version": "0.1",
+  "catchAll": {
+    "onReceive": [],
+    "next": [
+      {
+        "condition": "event.nlu.intent.is('devolution')",
+        "node": "devolution"
+      },
+      {
+        "condition": "event.nlu.intent.is('forget')",
+        "node": "forget-my-name"
+      },
+      {
+        "condition": "event.nlu.intent.is('doubt')",
+        "node": "doubt"
+      },
+      {
+        "condition": "event.nlu.intent.is('help')",
+        "node": "help"
+      },
+      {
+        "condition": "event.nlu.intent.is('human')",
+        "node": "human"
+      },
+      {
+        "condition": "event.nlu.intent.is('delivery')",
+        "node": "delivery"
+      },
+      {
+        "condition": "event.nlu.intent.is('payment')",
+        "node": "payment"
+      },
+      {
+        "condition": "event.nlu.intent.is('store')",
+        "node": "store"
+      }
+    ]
+  },
+  "startNode": "entry",
+  "nodes": [
+    {
+      "id": "a54a82eb7c",
+      "name": "entry",
+      "onEnter": [
+        "getUserVariable {\"name\":\"nickname\",\"output\":\"$r\"}"
+      ],
+      "onReceive": null,
+      "next": [
+        {
+          "condition": "state.$r !== null",
+          "node": "many-time"
+        },
+        {
+          "condition": "true",
+          "node": "first"
+        }
+      ]
+    },
+    {
+      "id": "32952e2405",
+      "name": "many-time",
+      "next": [
+        {
+          "condition": "true",
+          "node": "help"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-_R6u6b"
+      ],
+      "onReceive": null
+    },
+    {
+      "id": "5ff9e4f038",
+      "name": "first",
+      "next": [
+        {
+          "condition": "true",
+          "node": "ask-name"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-OVuItM"
+      ],
+      "onReceive": null
+    },
+    {
+      "id": "0aaef47139",
+      "name": "ask-name",
+      "next": [
+        {
+          "condition": "true",
+          "node": "welcome"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-wol8wi"
+      ],
+      "onReceive": [
+        "setUserVariable {\"name\":\"nickname\",\"value\":\"{{event.text}}\",\"expiry\":\"never\"}",
+        "getUserVariable {\"name\":\"nickname\",\"output\":\"$r\"}"
+      ]
+    },
+    {
+      "id": "fb92760d60",
+      "name": "help",
+      "next": [
+        {
+          "condition": "true",
+          "node": "none"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_single-choice-VcMtIE"
+      ],
+      "onReceive": []
+    },
+    {
+      "id": "5805d2ee0a",
+      "name": "welcome",
+      "next": [
+        {
+          "condition": "true",
+          "node": "help"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-oi11KI"
+      ],
+      "onReceive": null
+    },
+    {
+      "id": "02e274b362",
+      "name": "none",
+      "next": [
+        {
+          "condition": "true",
+          "node": "help"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-h_~fB4"
+      ],
+      "onReceive": null
+    },
+    {
+      "id": "6d94720373",
+      "name": "forget-my-name",
+      "next": [],
+      "onEnter": [
+        "resetUserVariable {\"name\":\"nickname\"}",
+        "say #!builtin_text-haTyoS"
+      ],
+      "onReceive": null
+    },
+    {
+      "id": "0c15b2ad62",
+      "name": "devolution",
+      "next": [
+        {
+          "condition": "event.nlu.intent.is('devolution')",
+          "node": "devolution.flow.json"
+        }
+      ],
+      "onEnter": [],
+      "onReceive": null
+    },
+    {
+      "id": "f2153b3dab",
+      "name": "doubt",
+      "next": [],
+      "onEnter": [
+        "say #!builtin_single-choice-SxH2oZ"
+      ],
+      "onReceive": null
+    },
+    {
+      "id": "4cb6ca5175",
+      "name": "human",
+      "next": [
+        {
+          "condition": "event.nlu.intent.is('human')",
+          "node": "human.flow.json"
+        }
+      ],
+      "onEnter": [],
+      "onReceive": null
+    },
+    {
+      "id": "ed410bf97e",
+      "name": "delivery",
+      "next": [
+        {
+          "condition": "event.nlu.intent.is('delivery')",
+          "node": "delivery.flow.json"
+        }
+      ],
+      "onEnter": [],
+      "onReceive": null
+    },
+    {
+      "id": "62f4ff6f7b",
+      "name": "payment",
+      "next": [
+        {
+          "condition": "event.nlu.intent.is('payment')",
+          "node": "payment.flow.json"
+        }
+      ],
+      "onEnter": [],
+      "onReceive": null
+    },
+    {
+      "id": "aedab2ec6c",
+      "name": "store",
+      "next": [
+        {
+          "condition": "event.nlu.intent.is('store')",
+          "node": "store.flow.json"
+        }
+      ],
+      "onEnter": [],
+      "onReceive": null
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+[
+  {
+    "id": "builtin_action-button-jL1OaR",
+    "formData": {
+      "title": "WhatsApp",
+      "action": "Open URL",
+      "url": "https://web.whatsapp.com/send?phone=5584981026348"
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-11-14T14:27:26.707Z"
+  },
+  {
+    "id": "builtin_action-button-TWdGJA",
+    "formData": {
+      "title": "E-mail",
+      "action": "Open URL",
+      "url": "mailto:contato@martpop.com.br"
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-11-14T14:31:49.287Z"
+  },
+  {
+    "id": "builtin_action-button-Y~4LJq",
+    "formData": {
+      "title": "Não, obrigado",
+      "action": "Say something",
+      "flow": "main.flow.json#msg-response-feedback"
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-11-14T15:10:58.398Z"
+  },
+  {
+    "id": "builtin_action-button-MPHbhl",
+    "formData": {
+      "title": "Continuar com o atendimento",
+      "action": "Flow to ...",
+      "flow": "main.flow.json#help-ask"
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-11-15T19:37:32.453Z"
+  }
+]

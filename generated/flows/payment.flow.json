@@ -1,0 +1,107 @@
+{
+  "version": "0.1",
+  "catchAll": {},
+  "startNode": "entry",
+  "nodes": [
+    {
+      "id": "9011a672e4",
+      "name": "entry",
+      "onEnter": [
+        "say #!builtin_single-choice-LtB06o"
+      ],
+      "onReceive": [],
+      "next": [
+        {
+          "condition": "event.text === '..formas de pagamento?'",
+          "node": "payment-forms"
+        },
+        {
+          "condition": "event.text === '..segurança?'",
+          "node": "security"
+        },
+        {
+          "condition": "event.text === '..quanto tempo para confirmação?'",
+          "node": "confirmation-time"
+        },
+        {
+          "condition": "true",
+          "node": "none"
+        }
+      ]
+    },
+    {
+      "id": "f38ce10a65",
+      "name": "payment-forms",
+      "next": [
+        {
+          "condition": "true",
+          "node": "more-helps"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-ryQT7l"
+      ],
+      "onReceive": null
+    },
+    {
+      "id": "034eb8a895",
+      "name": "security",
+      "next": [
+        {
+          "condition": "true",
+          "node": "more-helps"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-GUOVQ7"
+      ],
+      "onReceive": null
+    },
+    {
+      "id": "529a538a1c",
+      "name": "confirmation-time",
+      "next": [
+        {
+          "condition": "true",
+          "node": "more-helps"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-CDqE9S"
+      ],
+      "onReceive": null
+    },
+    {
+      "id": "a25743e82b",
+      "name": "none",
+      "next": [
+        {
+          "condition": "true",
+          "node": "entry"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-2q_VzM"
+      ],
+      "onReceive": null
+    },
+    {
+      "id": "22ca59c9c9",
+      "name": "more-helps",
+      "next": [
+        {
+          "condition": "event.text === 'Sim'",
+          "node": "entry"
+        },
+        {
+          "condition": "event.text === 'Não'",
+          "node": "feedback.flow.json"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_single-choice-7lrAjn"
+      ],
+      "onReceive": []
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "version": "0.1",
+  "catchAll": {},
+  "startNode": "entry",
+  "nodes": [
+    {
+      "id": "656242701f",
+      "name": "entry",
+      "onEnter": [
+        "say #!builtin_single-choice-_Qa6_y"
+      ],
+      "onReceive": [],
+      "next": [
+        {
+          "condition": "event.text === '..categoria dos livros'",
+          "node": "categories"
+        },
+        {
+          "condition": "event.text === '..como comprar?'",
+          "node": "how-to-buy"
+        },
+        {
+          "condition": "true",
+          "node": "none"
+        }
+      ]
+    },
+    {
+      "id": "328eec0b7d",
+      "name": "none",
+      "next": [
+        {
+          "condition": "true",
+          "node": "entry"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-2q_VzM"
+      ],
+      "onReceive": null
+    },
+    {
+      "id": "fef5a1f5c5",
+      "name": "categories",
+      "next": [
+        {
+          "condition": "true",
+          "node": "more-helps"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-iZgEzF"
+      ],
+      "onReceive": null
+    },
+    {
+      "id": "c2bc6391a9",
+      "name": "more-helps",
+      "next": [
+        {
+          "condition": "event.text === 'Sim'",
+          "node": "entry"
+        },
+        {
+          "condition": "event.text === 'Não'",
+          "node": "feedback.flow.json"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_single-choice-EK5ZIp"
+      ],
+      "onReceive": []
+    },
+    {
+      "id": "e538fa5a56",
+      "name": "how-to-buy",
+      "next": [
+        {
+          "condition": "true",
+          "node": "more-helps"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-b7~pIk"
+      ],
+      "onReceive": null
+    }
+  ]
+}

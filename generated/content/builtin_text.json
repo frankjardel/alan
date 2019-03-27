@@ -1,0 +1,406 @@
+[
+  {
+    "id": "builtin_text-pSsHWg",
+    "formData": {
+      "text": "👋, {{state.$r}}!",
+      "variations": [
+        "Olá, {{state.$r}}!",
+        "Bem-vindo(a) à MartPop, {{state.$r}}!"
+      ],
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-05-14T00:57:36.026Z"
+  },
+  {
+    "id": "builtin_text-z0J9qh",
+    "formData": {
+      "text": "Qual é o seu nome?",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-05-14T01:08:41.241Z"
+  },
+  {
+    "id": "builtin_text-_R6u6b",
+    "formData": {
+      "text": "🖖, {{state.$r}}!",
+      "variations": [
+        "Olá, {{state.$r}}!",
+        "É um prazer revê-lo, {{state.$r}}!"
+      ],
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-10-08T20:01:35.038Z"
+  },
+  {
+    "id": "builtin_text-OVuItM",
+    "formData": {
+      "text": "Olá, permita que eu me apresente me chamo Alan e eu serei seu assistente virtual :)",
+      "variations": [
+        "Olá, me chamo Alan, eu serei seu assistente virtual!"
+      ],
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-10-08T21:37:02.778Z"
+  },
+  {
+    "id": "builtin_text-JrEYxy",
+    "formData": {
+      "text": "Como posso te ajudar? ",
+      "variations": [],
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-10-08T22:12:29.260Z"
+  },
+  {
+    "id": "builtin_text-oi11KI",
+    "formData": {
+      "text": "Seja bem-vindo(a) à OnLibe, {{state.$r}}!",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-10-08T22:32:48.934Z"
+  },
+  {
+    "id": "builtin_text-hnJ~9F",
+    "formData": {
+      "text": "{{state.$r}}",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-10-09T00:18:07.768Z"
+  },
+  {
+    "id": "builtin_text-Wi9bD4",
+    "formData": {
+      "text": "Sua dúvida é referente a que mais especificamente?",
+      "variations": [],
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-10-09T14:21:41.553Z"
+  },
+  {
+    "id": "builtin_text-h_~fB4",
+    "formData": {
+      "text": "Desculpa, não consegui entender, vamos tentar novamente?",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-11-08T13:52:48.637Z"
+  },
+  {
+    "id": "builtin_text-Q7K3x~",
+    "formData": {
+      "text": "As opções de fretes que temos são: PAC e SEDEX",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-11-08T18:54:41.992Z"
+  },
+  {
+    "id": "builtin_text-OcZLbg",
+    "formData": {
+      "text": "Trabalhamos focados 100% no online, portanto, não possuimos um ponto de distribuição e não será possível retirar sua compra em mãos.",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-11-09T16:36:36.911Z"
+  },
+  {
+    "id": "builtin_text-0aqS6N",
+    "formData": {
+      "text": "Em nossa plataforma você poderá calcular o prazo para entrega  e o valor a ser pago pelo frete.",
+      "variations": [],
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-11-09T20:00:29.452Z"
+  },
+  {
+    "id": "builtin_text-AU0z6r",
+    "formData": {
+      "text": "Seu feedback é muito importante para nós, Obrigado!",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-11-10T14:04:51.183Z"
+  },
+  {
+    "id": "builtin_text-K10pl7",
+    "formData": {
+      "text": "Produtos digitais (E-books, Keys, Códigos etc..)  serão enviados por: Email, WhatsApp ou em nossa plataforma.",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-11-13T23:44:34.665Z"
+  },
+  {
+    "id": "builtin_text-Eh_oEg",
+    "formData": {
+      "text": "Aceitamos as principais bandeira de cartão de crédito em até 10X sem juros e boleto bancário com 5% de desconto.",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-11-14T00:00:56.201Z"
+  },
+  {
+    "id": "builtin_text-nwM6hI",
+    "formData": {
+      "text": "Sim, protegemos seus dados com criptografia avançada durante todo processo de compra e por medidas de segurança  não armazenamos seus dados financeiros.",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-11-14T02:20:53.029Z"
+  },
+  {
+    "id": "builtin_text-Mn94xQ",
+    "formData": {
+      "text": "O tempo de confirmação por cartão de crédito pode levar de 4h à 1 dia. Boleto bancário pode levar de 1 à 3 dias para ser confirmado.",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-11-14T13:25:01.423Z"
+  },
+  {
+    "id": "builtin_text-u3BTvm",
+    "formData": {
+      "text": "Caso sua dúvida ainda não tenha sido esclarecida, você pode falar com um atendente humano por..",
+      "variations": [
+        "Você ainda pode falar com um atendente humano via.."
+      ],
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-11-14T14:25:23.149Z"
+  },
+  {
+    "id": "builtin_text-YZqI1L",
+    "formData": {
+      "text": "Ok, você pode falar com um atendente humano nos seguintes canais..",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-11-15T19:31:17.327Z"
+  },
+  {
+    "id": "builtin_text-z0hv8g",
+    "formData": {
+      "text": "1° Você precisa está logado..",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-11-15T19:48:41.928Z"
+  },
+  {
+    "id": "builtin_text-RiKHmm",
+    "formData": {
+      "text": "O cliente tem o direito de desistir da compra em um período de 7 (sete) dias após a compra para realizar a troca de um produto adquirido na OnLibe, sem nenhum custo adicional conforme Art. 49, 1 do Código de Defesa do Consumidor - Lei 8078/90.",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-11-16T05:14:10.478Z"
+  },
+  {
+    "id": "builtin_text-wol8wi",
+    "formData": {
+      "text": "Qual é o seu nome?",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-11-18T13:40:12.177Z"
+  },
+  {
+    "id": "builtin_text-haTyoS",
+    "formData": {
+      "text": "Ok, esqueci o seu nome",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-11-18T14:05:31.027Z"
+  },
+  {
+    "id": "builtin_text-ArwcXl",
+    "formData": {
+      "text": "Seu feedback é muito importante para nós, obrigado!",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-11-18T14:37:08.143Z"
+  },
+  {
+    "id": "builtin_text-1FwOnj",
+    "formData": {
+      "text": "Em caso de produto defeituoso o cliente tem até 30 (trinta) dias à contar do recebimento da mercadoria para solicitar a troca do mesmo a primeira troca é por conta da loja, após a avaliação do produto a troca será realizada por um produto igual, se o produto não mais estiver disponível o cliente terá o direito de receber o mesmo valor em produtos similares ou a devolução do dinheiro, conforme o cliente preferir.",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-11-19T00:25:44.676Z"
+  },
+  {
+    "id": "builtin_text-wbQKeq",
+    "formData": {
+      "text": "Livros digitais possuem um período de \"amostra\" grátis, após esse período os ebooks não são reembolsáveis.",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-11-19T00:30:24.011Z"
+  },
+  {
+    "id": "builtin_text-XS4v3E",
+    "formData": {
+      "text": "Quando estiver logado na sua na conta, basta ir em: <a href=\"https://onlibe.com.br/historic\" target=\"_blank\"> Meus Pedidos </a> e solicitar a  troca do seu pedido.",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-11-19T17:52:21.753Z"
+  },
+  {
+    "id": "builtin_text-s2Csgo",
+    "formData": {
+      "text": "Falar com um atendente humano via.. \n<a href=\"https://api.whatsapp.com/send?phone=5584981026348\" target=\"_blank\">WhatsApp</a>\n<a href=\"https://m.me/livraria.onlibe\" target=\"_blank\">Messenger</a>\n<a href=\"mailto:contato@onlibe.com.br\" target=\"_blank\">E-mail</a>\n",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-11-19T18:25:25.841Z"
+  },
+  {
+    "id": "builtin_text-SY596P",
+    "formData": {
+      "text": "Feito isso, entraremos em contato e enviaremos nossa etiqueta para que você possa devolver o produto sem nenhum custo adicional.",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-11-20T03:07:18.855Z"
+  },
+  {
+    "id": "builtin_text-gjtwDM",
+    "formData": {
+      "text": "Obs: Caso o produto ainda não tenha sido despachado isso irá cancelar sua compra.",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-11-20T03:10:39.765Z"
+  },
+  {
+    "id": "builtin_text-LT4BLQ",
+    "formData": {
+      "text": "A devolução será feita baseando-se no meio de pagamento que foi escolhido no ato da compra, em caso de cartão de crédito o valor será estornado, em caso de boleto bancário o cliente deverá informar os dados bancários para que seja feito o deposito em conta.",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-11-20T03:24:10.672Z"
+  },
+  {
+    "id": "builtin_text-2q_VzM",
+    "formData": {
+      "text": "Desculpa, não consegui entender, vamos tentar novamente..",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-11-20T13:11:21.253Z"
+  },
+  {
+    "id": "builtin_text-WbOhnG",
+    "formData": {
+      "text": "Oferecemos PAC & SEDEX como opções de frete",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-11-20T16:48:05.296Z"
+  },
+  {
+    "id": "builtin_text-vFZlqN",
+    "formData": {
+      "text": "Não temos um ponto de distribuição, estamos focados 100% no online, por isso não será possível retirar em mãos.",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-11-21T02:13:41.196Z"
+  },
+  {
+    "id": "builtin_text-MaLEGm",
+    "formData": {
+      "text": "Seus Ebooks estaram sempre disponíveis em nossa <a href=\"https://app.onlibe.com.br\">plataforma</a>",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-11-21T02:23:33.514Z"
+  },
+  {
+    "id": "builtin_text-P1o7oY",
+    "formData": {
+      "text": "Tchau e até mais ver 👋",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-11-21T02:50:56.908Z"
+  },
+  {
+    "id": "builtin_text-iZgEzF",
+    "formData": {
+      "text": "📚 <a href=\"https://onlibe.com.br/categoria/desenvolvimento\" target=\"_blank\">Livros Físicos & Digitais - PHP, Javascript, Python, Ferramentas, Libs, frameworks etc..</a></br>\n",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-11-21T04:07:49.749Z"
+  },
+  {
+    "id": "builtin_text-ryQT7l",
+    "formData": {
+      "text": "Aceitamos Cartão de crédito em até 10X sem juros e Boleto Bancário com 5% de desconto.",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-11-21T10:07:02.814Z"
+  },
+  {
+    "id": "builtin_text-GUOVQ7",
+    "formData": {
+      "text": "Seus dados estão protegidos com criptografia avançada em todo processo de compra, não armazenamos seus dados bancários e seu pagamento será processado pelo pagseguro, portanto, sua compra está protegida em todos os níveis.",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-11-21T10:08:34.088Z"
+  },
+  {
+    "id": "builtin_text-CDqE9S",
+    "formData": {
+      "text": "O tempo de confirmação para pagamento por cartão de crédito pode variar de 4h à 1 dia e por boleto bancário pode levar de 1 à 3 dias úteis para ser confirmado.",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-11-21T10:13:41.776Z"
+  },
+  {
+    "id": "builtin_text-b7~pIk",
+    "formData": {
+      "text": "1° Você precisa está logado,  <a href=\"https://onlibe.com.br/login\" target=\"_blank\">Clique Aqui</a> para logar-se.</br>\n\n2° Você precisa ter no mínimo um endereço cadastrado de envio e cobrança, <a href=\"https://onlibe.com.br/address\" target=\"_blank\">Clique Aqui</a> para adicionar um novo. </br>\n\n3° Escolha um produto e clique em COMPRAR, você será redirecionado para a sacola de compras. </br>\n\n4° Agora selecione o endereço de envio e cobrança. </br>\n\n5° Caso o frete seja aplicável ao produto selecionado será calculado automáticamente, agora é só escolher o frete. </br>\n\n6° Selecione a forma de pagamento. </br>\n\n7° Finalize sua compra. </br>",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-11-24T23:05:25.676Z"
+  },
+  {
+    "id": "builtin_text-pIbpac",
+    "formData": {
+      "text": "Você poderá calcular o frete e prazo para entrega na página do produto (caso o frete seja aplicável ao mesmo).</br>\nNa sacola de compras o frete será calculado automáticamente.",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-11-24T23:20:10.782Z"
+  },
+  {
+    "id": "builtin_text-Go1FMz",
+    "formData": {
+      "text": "..Continuar o atendimento comigo",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2019-03-15T19:26:54.906Z"
+  }
+]

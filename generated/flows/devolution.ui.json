@@ -1,0 +1,257 @@
+{
+  "nodes": [
+    {
+      "id": "f418dd74a1",
+      "position": {
+        "x": 80,
+        "y": 85
+      }
+    },
+    {
+      "id": "3092ed261b",
+      "position": {
+        "x": 415,
+        "y": 85
+      }
+    },
+    {
+      "id": "d2fcb65015",
+      "position": {
+        "x": 735,
+        "y": 85
+      }
+    },
+    {
+      "id": "debcacd8ff",
+      "position": {
+        "x": 415,
+        "y": 270
+      }
+    },
+    {
+      "id": "b562a06a78",
+      "position": {
+        "x": 415,
+        "y": 460
+      }
+    },
+    {
+      "id": "dd5361e0fb",
+      "position": {
+        "x": 415,
+        "y": 635
+      }
+    },
+    {
+      "id": "f160a78069",
+      "position": {
+        "x": 415,
+        "y": 980
+      }
+    },
+    {
+      "id": "e0f0463caf",
+      "position": {
+        "x": 80,
+        "y": 475
+      }
+    }
+  ],
+  "links": [
+    {
+      "source": "f418dd74a1",
+      "sourcePort": "out0",
+      "target": "3092ed261b",
+      "points": [
+        {
+          "x": 287,
+          "y": 181
+        },
+        {
+          "x": 515,
+          "y": 79
+        }
+      ]
+    },
+    {
+      "source": "f418dd74a1",
+      "sourcePort": "out1",
+      "target": "debcacd8ff",
+      "points": [
+        {
+          "x": 287,
+          "y": 224
+        },
+        {
+          "x": 515,
+          "y": 264
+        }
+      ]
+    },
+    {
+      "source": "f418dd74a1",
+      "sourcePort": "out2",
+      "target": "b562a06a78",
+      "points": [
+        {
+          "x": 287,
+          "y": 267
+        },
+        {
+          "x": 515,
+          "y": 454
+        }
+      ]
+    },
+    {
+      "source": "f418dd74a1",
+      "sourcePort": "out3",
+      "target": "f160a78069",
+      "points": [
+        {
+          "x": 287,
+          "y": 310
+        },
+        {
+          "x": 515,
+          "y": 974
+        }
+      ]
+    },
+    {
+      "source": "f418dd74a1",
+      "sourcePort": "out4",
+      "target": "dd5361e0fb",
+      "points": [
+        {
+          "x": 287,
+          "y": 353
+        },
+        {
+          "x": 515,
+          "y": 629
+        }
+      ]
+    },
+    {
+      "source": "f418dd74a1",
+      "sourcePort": "out5",
+      "target": "e0f0463caf",
+      "points": [
+        {
+          "x": 287,
+          "y": 396
+        },
+        {
+          "x": 180,
+          "y": 469
+        }
+      ]
+    },
+    {
+      "source": "3092ed261b",
+      "sourcePort": "out0",
+      "target": "d2fcb65015",
+      "points": [
+        {
+          "x": 622,
+          "y": 199
+        },
+        {
+          "x": 835,
+          "y": 79
+        }
+      ]
+    },
+    {
+      "source": "d2fcb65015",
+      "sourcePort": "out0",
+      "target": "f418dd74a1",
+      "points": [
+        {
+          "x": 942,
+          "y": 181
+        },
+        {
+          "x": 180,
+          "y": 79
+        }
+      ]
+    },
+    {
+      "source": "debcacd8ff",
+      "sourcePort": "out0",
+      "target": "d2fcb65015",
+      "points": [
+        {
+          "x": 622,
+          "y": 384
+        },
+        {
+          "x": 835,
+          "y": 79
+        }
+      ]
+    },
+    {
+      "source": "b562a06a78",
+      "sourcePort": "out0",
+      "target": "d2fcb65015",
+      "points": [
+        {
+          "x": 622,
+          "y": 574
+        },
+        {
+          "x": 835,
+          "y": 79
+        }
+      ]
+    },
+    {
+      "source": "dd5361e0fb",
+      "sourcePort": "out0",
+      "target": "d2fcb65015",
+      "points": [
+        {
+          "x": 622,
+          "y": 905
+        },
+        {
+          "x": 835,
+          "y": 79
+        }
+      ]
+    },
+    {
+      "source": "f160a78069",
+      "sourcePort": "out0",
+      "target": "d2fcb65015",
+      "points": [
+        {
+          "x": 622,
+          "y": 1094
+        },
+        {
+          "x": 835,
+          "y": 79
+        }
+      ]
+    },
+    {
+      "source": "e0f0463caf",
+      "sourcePort": "out0",
+      "target": "f418dd74a1",
+      "points": [
+        {
+          "x": 287,
+          "y": 571
+        },
+        {
+          "x": 180,
+          "y": 79
+        }
+      ]
+    }
+  ]
+}

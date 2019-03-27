@@ -1,0 +1,131 @@
+{
+  "nodes": [
+    {
+      "id": "656242701f",
+      "position": {
+        "x": 100,
+        "y": 100
+      }
+    },
+    {
+      "id": "328eec0b7d",
+      "position": {
+        "x": 100,
+        "y": 355
+      }
+    },
+    {
+      "id": "fef5a1f5c5",
+      "position": {
+        "x": 445,
+        "y": 135
+      }
+    },
+    {
+      "id": "c2bc6391a9",
+      "position": {
+        "x": 775,
+        "y": 135
+      }
+    },
+    {
+      "id": "e538fa5a56",
+      "position": {
+        "x": 445,
+        "y": 325
+      }
+    }
+  ],
+  "links": [
+    {
+      "source": "656242701f",
+      "sourcePort": "out0",
+      "target": "fef5a1f5c5",
+      "points": [
+        {
+          "x": 307,
+          "y": 198
+        },
+        {
+          "x": 545,
+          "y": 129
+        }
+      ]
+    },
+    {
+      "source": "656242701f",
+      "sourcePort": "out1",
+      "target": "e538fa5a56",
+      "points": [
+        {
+          "x": 307,
+          "y": 242
+        },
+        {
+          "x": 545,
+          "y": 319
+        }
+      ]
+    },
+    {
+      "source": "656242701f",
+      "sourcePort": "out2",
+      "target": "328eec0b7d",
+      "points": [
+        {
+          "x": 307,
+          "y": 268
+        },
+        {
+          "x": 200,
+          "y": 349
+        }
+      ]
+    },
+    {
+      "source": "328eec0b7d",
+      "sourcePort": "out0",
+      "target": "656242701f",
+      "points": [
+        {
+          "x": 307,
+          "y": 453
+        },
+        {
+          "x": 200,
+          "y": 94
+        }
+      ]
+    },
+    {
+      "source": "fef5a1f5c5",
+      "sourcePort": "out0",
+      "target": "c2bc6391a9",
+      "points": [
+        {
+          "x": 652,
+          "y": 233
+        },
+        {
+          "x": 875,
+          "y": 129
+        }
+      ]
+    },
+    {
+      "source": "c2bc6391a9",
+      "sourcePort": "out0",
+      "target": "656242701f",
+      "points": [
+        {
+          "x": 982,
+          "y": 233
+        },
+        {
+          "x": 200,
+          "y": 94
+        }
+      ]
+    }
+  ]
+}

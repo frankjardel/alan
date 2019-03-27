@@ -1,0 +1,145 @@
+{
+  "version": "0.1",
+  "catchAll": {},
+  "startNode": "entry",
+  "nodes": [
+    {
+      "id": "f418dd74a1",
+      "name": "entry",
+      "onEnter": [
+        "say #!builtin_single-choice-US1sHk"
+      ],
+      "onReceive": [],
+      "next": [
+        {
+          "condition": "event.text === '..o direito de arrependimento?'",
+          "node": "repentance"
+        },
+        {
+          "condition": "event.text === '..troca de produtos avariados?'",
+          "node": "damaged"
+        },
+        {
+          "condition": "event.text === '..Devolução de produtos digitais?'",
+          "node": "product-digital"
+        },
+        {
+          "condition": "event.text === '..Devolução do pagamento?'",
+          "node": "refund"
+        },
+        {
+          "condition": "event.text === 'Como trocar|devolver um produto?'",
+          "node": "how-to-exchange"
+        },
+        {
+          "condition": "true",
+          "node": "none"
+        }
+      ]
+    },
+    {
+      "id": "3092ed261b",
+      "name": "repentance",
+      "next": [
+        {
+          "condition": "true",
+          "node": "more-helps"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-RiKHmm"
+      ],
+      "onReceive": null
+    },
+    {
+      "id": "d2fcb65015",
+      "name": "more-helps",
+      "next": [
+        {
+          "condition": "event.text === 'Sim'",
+          "node": "entry"
+        },
+        {
+          "condition": "event.text === 'Não'",
+          "node": "feedback.flow.json"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_single-choice-gAujVY"
+      ],
+      "onReceive": []
+    },
+    {
+      "id": "debcacd8ff",
+      "name": "damaged",
+      "next": [
+        {
+          "condition": "true",
+          "node": "more-helps"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-1FwOnj"
+      ],
+      "onReceive": null
+    },
+    {
+      "id": "b562a06a78",
+      "name": "product-digital",
+      "next": [
+        {
+          "condition": "true",
+          "node": "more-helps"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-wbQKeq"
+      ],
+      "onReceive": null
+    },
+    {
+      "id": "dd5361e0fb",
+      "name": "how-to-exchange",
+      "next": [
+        {
+          "condition": "true",
+          "node": "more-helps"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-XS4v3E",
+        "say #!builtin_text-SY596P",
+        "say #!builtin_text-gjtwDM"
+      ],
+      "onReceive": null
+    },
+    {
+      "id": "f160a78069",
+      "name": "refund",
+      "next": [
+        {
+          "condition": "true",
+          "node": "more-helps"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-LT4BLQ"
+      ],
+      "onReceive": null
+    },
+    {
+      "id": "e0f0463caf",
+      "name": "none",
+      "next": [
+        {
+          "condition": "true",
+          "node": "entry"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-2q_VzM"
+      ],
+      "onReceive": null
+    }
+  ]
+}

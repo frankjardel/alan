@@ -1,0 +1,21 @@
+[
+  {
+    "id": "builtin_carousel-BFGFbt",
+    "formData": [
+      {
+        "title": "Teste",
+        "subtitle": "Testando o carousel",
+        "actions": [
+          {
+            "title": "Acesse e confira :)",
+            "action": "Open URL",
+            "url": "https://martpop.com.br"
+          }
+        ],
+        "typing": true
+      }
+    ],
+    "createdBy": "admin",
+    "createdOn": "2018-10-20T19:49:10.672Z"
+  }
+]

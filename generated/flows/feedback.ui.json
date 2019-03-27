@@ -1,0 +1,94 @@
+{
+  "nodes": [
+    {
+      "id": "5093b874b2",
+      "position": {
+        "x": 85,
+        "y": 190
+      }
+    },
+    {
+      "id": "e427a1e1ec",
+      "position": {
+        "x": 440,
+        "y": 360
+      }
+    },
+    {
+      "id": "8fc2ce2551",
+      "position": {
+        "x": 440,
+        "y": 190
+      }
+    },
+    {
+      "id": "1dad958cbf",
+      "position": {
+        "x": 750,
+        "y": 305
+      }
+    }
+  ],
+  "links": [
+    {
+      "source": "5093b874b2",
+      "sourcePort": "out0",
+      "target": "8fc2ce2551",
+      "points": [
+        {
+          "x": 292,
+          "y": 268
+        },
+        {
+          "x": 540,
+          "y": 184
+        }
+      ]
+    },
+    {
+      "source": "5093b874b2",
+      "sourcePort": "out1",
+      "target": "e427a1e1ec",
+      "points": [
+        {
+          "x": 292,
+          "y": 293
+        },
+        {
+          "x": 540,
+          "y": 354
+        }
+      ]
+    },
+    {
+      "source": "e427a1e1ec",
+      "sourcePort": "out0",
+      "target": "1dad958cbf",
+      "points": [
+        {
+          "x": 647,
+          "y": 456
+        },
+        {
+          "x": 850,
+          "y": 299
+        }
+      ]
+    },
+    {
+      "source": "8fc2ce2551",
+      "sourcePort": "out0",
+      "target": "1dad958cbf",
+      "points": [
+        {
+          "x": 647,
+          "y": 286
+        },
+        {
+          "x": 850,
+          "y": 299
+        }
+      ]
+    }
+  ]
+}

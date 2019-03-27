@@ -1,0 +1,342 @@
+[
+  {
+    "id": "builtin_single-choice-VcMtIE",
+    "formData": {
+      "text": "Como posso te ajudar?",
+      "choices": [
+        {
+          "title": "Tirar uma dúvida",
+          "value": "duvida"
+        },
+        {
+          "title": "Falar com um humano",
+          "value": "Falar com um humano"
+        }
+      ],
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-11-08T03:49:05.330Z"
+  },
+  {
+    "id": "builtin_single-choice-OZ1xVO",
+    "formData": {
+      "text": "Posso te ajudar em mais alguma coisa?",
+      "choices": [
+        {
+          "title": "Não, obrigado",
+          "value": "Não, obrigado"
+        },
+        {
+          "title": "Sim",
+          "value": "Sim"
+        }
+      ],
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-11-10T13:52:34.886Z"
+  },
+  {
+    "id": "builtin_single-choice-YhOrPU",
+    "formData": {
+      "text": "Essa informação foi útil para você?",
+      "choices": [
+        {
+          "title": "Não",
+          "value": "Não"
+        },
+        {
+          "title": "Sim",
+          "value": "Sim"
+        }
+      ],
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-11-10T13:57:31.077Z"
+  },
+  {
+    "id": "builtin_single-choice-caJYbo",
+    "formData": {
+      "text": "ou você pode..",
+      "choices": [
+        {
+          "title": "Continuar o atendimento",
+          "value": "Continuar o atendimento"
+        },
+        {
+          "title": "Finalizar agora",
+          "value": "Finalizar agora"
+        }
+      ],
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-11-14T15:14:57.412Z"
+  },
+  {
+    "id": "builtin_single-choice-SxH2oZ",
+    "formData": {
+      "text": "Sua dúvida está relacionada a que mais especificamente?",
+      "choices": [
+        {
+          "title": "Trocas e Devoluções",
+          "value": "Trocas e Devoluções"
+        },
+        {
+          "title": "Na entrega",
+          "value": "Na entrega"
+        },
+        {
+          "title": "No pagamento",
+          "value": "No pagamento"
+        },
+        {
+          "title": "Sobre a Livraria",
+          "value": "Sobre a Livraria"
+        }
+      ],
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-11-16T04:20:25.532Z"
+  },
+  {
+    "id": "builtin_single-choice-US1sHk",
+    "formData": {
+      "text": "O que deseja saber mais precisamente a..",
+      "choices": [
+        {
+          "title": "..o direito de arrependimento?",
+          "value": "..o direito de arrependimento?"
+        },
+        {
+          "title": "..troca de produtos avariados?",
+          "value": "..troca de produtos avariados?"
+        },
+        {
+          "title": "..Devolução de produtos digitais?",
+          "value": "..Devolução de produtos digitais?"
+        },
+        {
+          "title": "..Devolução do pagamento?",
+          "value": "..Devolução do pagamento?"
+        },
+        {
+          "title": "Como trocar|devolver um produto?",
+          "value": "Como trocar|devolver um produto?"
+        }
+      ],
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-11-16T05:04:50.406Z"
+  },
+  {
+    "id": "builtin_single-choice-gAujVY",
+    "formData": {
+      "text": "Existe mais alguma objeção sobre trocas & devoluções?",
+      "choices": [
+        {
+          "title": "Sim",
+          "value": "Sim"
+        },
+        {
+          "title": "Não",
+          "value": "Não"
+        }
+      ],
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-11-18T13:47:02.134Z"
+  },
+  {
+    "id": "builtin_single-choice-T0fgkU",
+    "formData": {
+      "text": "Posso te ajudar em mais alguma coisa?",
+      "choices": [
+        {
+          "title": "Não, obrigado",
+          "value": "Não, obrigado"
+        },
+        {
+          "title": "Outra dúvida",
+          "value": "Outra dúvida"
+        }
+      ],
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-11-18T14:09:25.335Z"
+  },
+  {
+    "id": "builtin_single-choice-v0pK0z",
+    "formData": {
+      "text": "Essa informação foi útil para você?",
+      "choices": [
+        {
+          "title": "Sim",
+          "value": "Sim"
+        },
+        {
+          "title": "Não",
+          "value": "Não"
+        }
+      ],
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-11-18T14:33:26.923Z"
+  },
+  {
+    "id": "builtin_single-choice-WbxXHJ",
+    "formData": {
+      "text": "Caso sua dúvida ainda persista você pode..",
+      "choices": [
+        {
+          "title": "..Continuar o atendimento comigo",
+          "value": "..Continuar o atendimento comigo"
+        },
+        {
+          "title": "..falar com um atendente humano",
+          "value": "..falar com um atendente humano"
+        },
+        {
+          "title": "..finalizar atendimento",
+          "value": "..finalizar atendimento"
+        }
+      ],
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-11-18T14:40:20.566Z"
+  },
+  {
+    "id": "builtin_single-choice-QQO9Xf",
+    "formData": {
+      "text": "O que deseja saber mais precisamente a..",
+      "choices": [
+        {
+          "title": "..s opções de frete?",
+          "value": "..s opções de frete?"
+        },
+        {
+          "title": "..retirar em mãos",
+          "value": "..retirar em mãos"
+        },
+        {
+          "title": "..entrega de produtos digitais?",
+          "value": "..entrega de produtos digitais?"
+        },
+        {
+          "title": "..o valor e prazo de entrega?",
+          "value": "..o valor e prazo de entrega?"
+        }
+      ],
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-11-20T03:55:14.275Z"
+  },
+  {
+    "id": "builtin_single-choice-khJYIE",
+    "formData": {
+      "text": "Existe mais alguma objeção sobre a entrega?",
+      "choices": [
+        {
+          "title": "Sim",
+          "value": "Sim"
+        },
+        {
+          "title": "Não",
+          "value": "Não"
+        }
+      ],
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-11-20T16:58:15.251Z"
+  },
+  {
+    "id": "builtin_single-choice-LtB06o",
+    "formData": {
+      "text": "O que deseja saber mais precisamente a..",
+      "choices": [
+        {
+          "title": "..formas de pagamento?",
+          "value": "..formas de pagamento?"
+        },
+        {
+          "title": "..segurança?",
+          "value": "..segurança?"
+        },
+        {
+          "title": "..quanto tempo para confirmação?",
+          "value": "..quanto tempo para confirmação?"
+        }
+      ],
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-11-21T03:37:09.866Z"
+  },
+  {
+    "id": "builtin_single-choice-7lrAjn",
+    "formData": {
+      "text": "Existe mais alguma objeção sobre o pagmento?",
+      "choices": [
+        {
+          "title": "Sim",
+          "value": "Sim"
+        },
+        {
+          "title": "Não",
+          "value": "Não"
+        }
+      ],
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-11-21T03:44:48.436Z"
+  },
+  {
+    "id": "builtin_single-choice-_Qa6_y",
+    "formData": {
+      "text": "O que deseja saber mais precisamente a..",
+      "choices": [
+        {
+          "title": "..categoria dos livros",
+          "value": "..categoria dos livros"
+        },
+        {
+          "title": "..como comprar?",
+          "value": "..como comprar?"
+        }
+      ],
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-11-21T04:02:04.523Z"
+  },
+  {
+    "id": "builtin_single-choice-EK5ZIp",
+    "formData": {
+      "text": "Existe mais alguma objeção sobre a livraria?",
+      "choices": [
+        {
+          "title": "Sim",
+          "value": "Sim"
+        },
+        {
+          "title": "Não",
+          "value": "Não"
+        }
+      ],
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-11-21T04:11:31.148Z"
+  }
+]
